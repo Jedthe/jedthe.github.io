@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Jt</title>
-    <link rel="stylesheet" href="\bootstrap\css\bootstrap.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="\style.css" />
-    <script src="\bootstrap\js\bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="\bootstrap\css\bootstrap.css" /> -->
+    <!-- <script src="\bootstrap\js\bootstrap.min.js"></script> -->
   </head>
+
   <body id="home">
     <!-- Nav bar -->
 
@@ -20,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About Me</a>
@@ -41,7 +44,7 @@
     <!-- nav bar -->
 
     <!-- jumbotron -->
-    <section class="jumbotron text-center" style="padding: 0%; padding-top: 10rem; outline: none">
+   <div class="bg-light rounded-3 text-center"  style="padding: 0%; padding-top: 10rem">
       <img src="\source\img\gambar-jt.jpg" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-6">Julius Tan</h1>
       <p class="lead">A.K.A Jedthe | Computer Sciences | Binusian 2025 Alam Sutera</p>
@@ -54,18 +57,20 @@
           d="M0,128L0,128L90,128L90,256L180,256L180,224L270,224L270,192L360,192L360,0L450,0L450,128L540,128L540,0L630,0L630,288L720,288L720,64L810,64L810,224L900,224L900,0L990,0L990,96L1080,96L1080,224L1170,224L1170,64L1260,64L1260,128L1350,128L1350,32L1440,32L1440,320L1350,320L1350,320L1260,320L1260,320L1170,320L1170,320L1080,320L1080,320L990,320L990,320L900,320L900,320L810,320L810,320L720,320L720,320L630,320L630,320L540,320L540,320L450,320L450,320L360,320L360,320L270,320L270,320L180,320L180,320L90,320L90,320L0,320L0,320Z"
         ></path>
       </svg>
-    </section>
+      </div>
+      
+    </div>
     <!-- jumbotron end -->
 
     <!-- About Me -->
     <section id="about" style="padding-bottom: 5rem">
       <div class="container">
-        <div class="row text-center">
-          <div class="col mb-2"><h2 style="font-size: 2rem">About me</h2></div>
+        <div class="row text-center mb-3 ">
+          <div class="col mb-2 "><h2 style="font-size: 2rem">About Me</h2></div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 text-justify"><p>Saya merupakan mahasiswa jurusan Computer Science di Binus University Alam Sutera sejak 2021. saya sendiri memiliki passion di bidang mendesain game, web, dan aplikasi.</p></div>
-          <div class="col-md-4 text-justify"><p>Saya memiliki hobi bermain game, dan menggambar. Saya juga memiliki tujuan untuk improve skill- skill yang ada, untuk dapat menjadi lebih baik lagi kian harinya.</p></div>
+        <div class="row justify-content-center ms-2 ">
+          <div class="col-md-4 text-justify"><p>I am a Computer Science student at Binus University Alam Sutera since 2021. I have a passion for designing games, websites, and applications</p></div>
+          <div class="col-md-4 text-justify"><p>I have hobbies of playing games and drawing. I also have a goal to improve the skills I have, to become even better in the future.</p></div>
         </div>
       </div>
     </section>
@@ -85,32 +90,32 @@
         <div class="row text-center">
           <div class="col mb-5"><h2 style="font-size: 2rem">My Projects</h2></div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
+        <div class="row justify-content-center ms-3 ">
+          <div class="col-md-4 mb-5">
             <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+              <img src="\source\img\apps.jpg" class="card-img-top" alt="..." style="height: 11rem" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">My Mobile Projects</p>
               </div>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="\apps-projects.html" class="btn btn-primary" style="font-size: 10pt;">See More </a>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-5">
             <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+              <img src="\source\img\website.jpg" class="card-img-top" alt="..." style="height: 11rem" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">My Website Projects</p>
               </div>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="\website-projects.html" class="btn btn-primary" style="font-size: 10pt;">See More</a>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-5">
             <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
+              <img src="\source\img\skill.jpg" class="card-img-top" alt="..." style="height: 11rem" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">Another Achievements</p>
               </div>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="\achievement.html" class="btn btn-primary" style="font-size: 10pt;">See More </a>
             </div>
           </div>
         </div>
@@ -125,21 +130,36 @@
         <div class="row text-center">
           <div class="col mb-5"><h2 style="font-size: 2rem">My Contacts</h2></div>
         </div>
-        <div class="row justify-content-center mb-2">
-          <div class="col-2 text-justify">Email :</div>
-          <div class="col-4 text-justify">julius.tan@binus.ac.id</div>
+        <!-- <div class="center">
+          <div class="row justify-content-center mb-2">
+            <div class="text-justify">Email : julius.tan@binus.ac.id</div>
+          </div>
+          <div class="row justify-content-center mb-2">
+            <div class="text-justify">Instagram : @jtkz_</div>
+          </div>
+          <div class="row justify-content-center mb-2">
+            <div class="text-justify">Line : jt04</div>
+          </div>
+          <div class="row justify-content-center mb-2">
+            <div class="text-justify">Discord : jtz04</div>
+          </div>
+        </div> -->
+
+        <div class="row justify-content-center">
+          <div class="col-md-2 text-justify"><p>Email :</p></div>
+          <div class="col-md-2 text-justify"><p>julius.tan@binus.ac.id</p></div>
         </div>
-        <div class="row justify-content-center mb-2">
-          <div class="col-2 text-justify">Instagram :</div>
-          <div class="col-4 text-justify">@jtkz_</div>
+        <div class="row justify-content-center">
+          <div class="col-md-2 text-justify"><p>Instagram :</p></div>
+          <div class="col-md-2 text-justify"><p>@jtkz_</p></div>
         </div>
-        <div class="row justify-content-center mb-2">
-          <div class="col-2 text-justify">Line :</div>
-          <div class="col-4 text-justify">jt04</div>
+        <div class="row justify-content-center">
+          <div class="col-md-2 text-justify"><p>Line :</p></div>
+          <div class="col-md-2 text-justify"><p>jt04</p></div>
         </div>
-        <div class="row justify-content-center mb-2">
-          <div class="col-2 text-justify">Discord :</div>
-          <div class="col-4 text-justify">jtz04</div>
+        <div class="row justify-content-center">
+          <div class="col-md-2 text-justify"><p>Discord :</p></div>
+          <div class="col-md-2 text-justify"><p>jtz04</p></div>
         </div>
       </div>
     </section>
